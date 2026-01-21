@@ -400,11 +400,11 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ffffff;
+  border: 8px solid #ffffff;
   border-color: yellow transparent yellow transparent;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   background-image: url("Picture1.png") no-repeat;
   animation: animate-preloader 1.5s linear infinite;
 }
@@ -412,25 +412,22 @@ h6 {
 	position: fixed;
 	top: calc(50% - 30px);
 	left: calc(50% - 30px);
-	border: 6px solid #ffffff;
+	border: 10px solid #ffffff;
 	border-color: yellow transparent yellow transparent;
 	border-radius: 50%;
-	width: 60px;
-	height: 60px;
+	width: 100px;
+	height: 100px;
 }
 #preloader:after {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ffffff;
+  border: 10px solid #ffffff;
   border-color: yellow transparent yellow transparent;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background-image: no-repeat;
-  background-position: center;
-  background-size: cover;
+  width: 100px;
+  height: 100px;
 }
 
 @keyframes animate-preloader {
